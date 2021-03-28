@@ -44,3 +44,5 @@ Upload the hand written image for which the classification needs to be done, on 
 - [Harsh Patel](github.com/hap662000)
 - [Hriday Nagrani](github.com/HridayNagrani)
 - [Dhruv Shah](github.com/dhruvshah01)
+
+Youtube Video Link: https://www.youtube.com/watch?v=WKeA4-MTOlk
