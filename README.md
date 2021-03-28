@@ -31,7 +31,14 @@ Download the [dataset](https://www.kaggle.com/sachinpatel21/az-handwritten-alpha
 Upload the hand written image for which the classification needs to be done, on the environment. For every character, the user will get the  characteristics.
 
 ### Other Attempts
-- 
+- We also tried another approach :
+We created another model and trained it with data of good handwritting characters. After training we predicted the output using both the models i.e the precious model which was trained with mnist and kaggle a-z dataset.
+
+We will classify the handwritting as good or bad based upon how the output from the previous model is similar to the output of model which is created with the good handwritting characters dataset.
+
+If a character is badly written then the new model will not recognize it as it is trained with good training set
+but the old model would have recognized it so the user has to improve writting for that character
+This approach will generate better results as we are comparing results with the best set. But as we were not having a large dataset of good handwritting characters the model which was generated was not able to generalise well
 
 
 ### Built With
